@@ -1,0 +1,9 @@
+.footer {
+  background-color: rgb(128, 0, 0);
+  color: aliceblue;
+  width: 100%;
+  /* border: red solid 3px; */
+  position: absolute;
+  bottom: -21px;
+  /* padding-bottom: 100px; */
+}

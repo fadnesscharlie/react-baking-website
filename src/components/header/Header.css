@@ -1,0 +1,14 @@
+header {
+  background-color: aqua;
+  width: 100%;
+}
+
+/* .icon {} */
+
+.title {
+  text-align: center;
+}
+
+nav {
+  text-align: right;
+}
