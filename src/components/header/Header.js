@@ -1,33 +1,40 @@
-import './Header.css'
-import { Link } from 'react-router-dom';
+import "./Header.css";
+import { Link } from "react-router-dom";
+import profileIcon from "../images/Profile-Pic-Resized.jpg";
 
 export default function Header(props) {
   return (
     <header>
+      <Link to="/">
+        <img className="icon" src={profileIcon} alt="Site Icon" />
+      </Link>
 
-      <img className='icon' src='https://via.placeholder.com/100' alt='Site Icon' />
-
-      <h1 className='title'>Charlie's Baked Goods || Header</h1>
+      <h1 className="title">Charlie's Baked Goods || Header</h1>
 
       <nav>
         <ul>
-          <li className='navListLi'>
-            <Link className='navLink' to='/'>
+          <span className="navListLi">
+            <Link className="navLinkHeader" to="/">
               Home
             </Link>
-          </li>
-          <li className='navListLi'>
-            <Link className='navLink' to='products'>
+          </span>
+          <span className="navListLi">
+            <Link className="navLinkHeader" to="products">
               Products
             </Link>
-          </li>
-          <li className='navListLi'>
-            <Link className='navLink' to='about'>
+          </span>
+          <span className="navListLi">
+            <Link className="navLinkHeader" to="portfolio">
+              Portfolio
+            </Link>
+          </span>
+          <span className="navListLi">
+            <Link className="navLinkHeader" to="about">
               About
             </Link>
-          </li>
+          </span>
         </ul>
       </nav>
     </header>
-  )
+  );
 }

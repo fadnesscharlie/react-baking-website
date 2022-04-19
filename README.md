@@ -206,7 +206,7 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 ## Acknowledgments
 
 * [Footer Template](https://bbbootstrap.com/snippets/simple-footer-social-media-icons-37929510#)
-* []()
+* [Chester - React Personal Portfolio Template + React hooks](https://themeforest.net/item/chester-react-personal-portfolio-template/24952954)
 * []()
 
 <p align="right">(<a href="#top">back to top</a>)</p>

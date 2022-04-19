@@ -47,3 +47,19 @@ h3 {
 .rights {
     font-size: calc(10px + (12 - 10) * ((100vw - 360px) / (1600 - 360))) !important
 }
+
+.navLinkFooter {
+  color: #627482 !important;
+  font-size: medium;
+  text-decoration: none;
+}
+
+.emailLink {
+  color: #627482 !important;
+  font-size: medium;
+  text-decoration: none;
+}
+
+.iconLink {
+  color: #989c9e;
+}
