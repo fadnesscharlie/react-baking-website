@@ -205,7 +205,7 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* []()
+* [Footer Template](https://bbbootstrap.com/snippets/simple-footer-social-media-icons-37929510#)
 * []()
 * []()
 

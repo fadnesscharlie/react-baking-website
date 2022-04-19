@@ -5,25 +5,24 @@ export default function Header(props) {
   return (
     <header>
 
-      <img className='icon' src='' alt='Site Icon' />
-
+      <img className='icon' src='https://via.placeholder.com/100' alt='Site Icon' />
 
       <h1 className='title'>Charlie's Baked Goods || Header</h1>
 
       <nav>
         <ul>
-          <li>
-            <Link to='/'>
+          <li className='navListLi'>
+            <Link className='navLink' to='/'>
               Home
             </Link>
           </li>
-          <li>
-            <Link to='products'>
+          <li className='navListLi'>
+            <Link className='navLink' to='products'>
               Products
             </Link>
           </li>
-          <li>
-            <Link to='about'>
+          <li className='navListLi'>
+            <Link className='navLink' to='about'>
               About
             </Link>
           </li>
