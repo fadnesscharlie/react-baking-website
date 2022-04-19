@@ -1,0 +1,28 @@
+header {
+  background-color: aqua;
+  /* position: relative; */
+  /* bottom: 22px; */
+  width: 100%;
+}
+
+.icon {
+  float: left;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.title {
+  text-align: center;
+}
+
+nav {
+  text-align: right;
+}
+
+.navListLi {
+  list-style: none;
+}
+
+.navLink {
+  text-decoration: none;
+}
