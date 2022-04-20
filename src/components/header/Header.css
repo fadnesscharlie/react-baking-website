@@ -1,9 +1,12 @@
 header {
-  background-color: aqua;
+  background-color: rgb(128, 0, 0);
   /* position: relative; */
   /* bottom: 22px; */
   width: 100%;
+  height: 120px;
+  color:ivory
 }
+
 
 .icon {
   float: left;
@@ -13,16 +16,29 @@ header {
 
 .title {
   text-align: center;
+  position: relative;
+  top: 30px;
 }
 
 nav {
+  position: relative;
+  bottom: 20px;
   text-align: right;
+  /* border: red solid 5px; */
 }
 
 .navListLi {
   list-style: none;
+  margin-right: 10px;
+  font-size: larger;
 }
 
-.navLink {
-  text-decoration: none;
+.navListLi:last-child {
+  margin-right: 50px;
 }
+
+.navLinkHeader {
+  text-decoration: none;
+  color:ivory;
+}
+
