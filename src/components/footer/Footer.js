@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 
 export default function Footer(props) {
   return (
-    <div className="container-fluid pb-0 mb-0 justify-content-center text-light">
-      <footer>
+    <div className="container-fluid pb-0 mb-0 justify-content-center text-light" >
+      <footer className='footer'>
         <div className="row my-5 justify-content-center py-5">
           <div className="col-11">
             <div className="row ">

@@ -1,0 +1,27 @@
+.landscapeImg {
+  position: relative;
+  top: -20px;
+  display: block;
+  margin: auto;
+  margin-top: 120px;
+}
+
+.intro {
+  margin: 100px 100px;
+  text-align: center;
+}
+
+.portfolio {
+  text-align: center;
+  margin: auto;
+  /* width: 600px; */
+}
+
+.projects {
+  width: 1000px;
+  margin: auto;
+  text-align: center;
+  background-color: cadetblue;
+}
+
+

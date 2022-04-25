@@ -19,10 +19,12 @@ export default function Landing(props) {
         <Routes>
           <Route path="/" element={<Main />} />
           <Route path="products" element={<Products />} />
-          <Route path="portfolio" element={<Portfolio />} />
           <Route path="about" element={<About />} />
         </Routes>
       </div>
+      <Routes>
+        <Route path="portfolio" element={<Portfolio />} />
+      </Routes>
       <Footer />
     </React.Fragment>
   );

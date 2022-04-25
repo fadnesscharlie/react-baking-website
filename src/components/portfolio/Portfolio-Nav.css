@@ -1,0 +1,48 @@
+.portfolio-nav {
+	height: 100%;
+	width: 15%;
+	position: fixed;
+	top: 0;
+	left: 100;
+  margin-top: 120px;
+  /* margin-left: 10%; */
+	background-color: #c4beac;
+	padding-top: 20px;
+	/* align-items: center; */
+}
+
+.portListLi {
+  /* text-align: center; */
+  list-style: none;
+  margin-bottom: 20px;
+  font-size: 2em;
+}
+
+.portList {
+  margin-top: 70px;
+}
+
+.picNameLinks {
+  text-align: center;
+}
+
+.profilePic {
+  border-radius: 50%;
+  border: rgb(54, 47, 47) solid 2px;
+  background-color: rgb(54, 47, 47);
+  position: relative;
+  /* left: 0.8px;
+  top: 0.9px; */
+  margin-bottom: 20px;
+}
+
+.name {
+  font-size: x-large;
+  margin-bottom: 20px;
+}
+
+.icons {
+  background-color: rgb(34, 37, 43);
+  border-radius: 50%;
+  padding: 7px;
+}
