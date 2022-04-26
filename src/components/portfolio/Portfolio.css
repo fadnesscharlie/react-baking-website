@@ -1,27 +1,173 @@
+.widthMaster {
+  background-color: cadetblue;
+  margin-left: 10%;
+
+}
+
+.backToTop {
+  /* position: fixed; */
+  /* right: 0; */
+  /* border: red solid 5000000000000000000px; */
+  margin: auto;
+  width: auto;
+  /* text-align: center; */
+}
+
+.backToTopSkills {
+  margin: auto;
+  width: auto;
+  position: relative;
+  left: 430px;
+}
+
+/* 
+################################ 
+Intro Section
+################################
+*/
 .landscapeImg {
   position: relative;
   top: -20px;
   display: block;
   margin: auto;
-  margin-top: 120px;
+  margin-top: 60px;
+  padding: 0px 10px 10px 10px;
+  background-color: #c4beac;
+  /* width: 1400px; */
+  
+}
+
+.landscapeImgBox {
+  /* border: red solid 5px; */
+  background-color: cadetblue;
+  padding-top: 10px;
+
 }
 
 .intro {
-  margin: 100px 100px;
+  padding: 100px 0 200px 0;
   text-align: center;
+  background-color: cadetblue;
+  position: relative;
+  bottom: 20px;
+
 }
 
 .portfolio {
-  text-align: center;
   margin: auto;
   /* width: 600px; */
 }
+
+/* 
+################################ 
+About Section
+################################
+*/
+.about {
+  margin: auto;
+  text-align: center;
+  width: 600px;
+  padding: 100px 0 100px 0;
+
+
+}
+
+/* 
+################################ 
+Projects Section
+################################
+*/
 
 .projects {
   width: 1000px;
   margin: auto;
   text-align: center;
   background-color: cadetblue;
+  padding: 100px 0 100px 0;
+
+
 }
 
+.projectImg {
+  margin: 10px;
+}
 
+/* 
+################################ 
+Skills Section
+################################
+*/
+
+.skills {
+  margin: auto;
+  width: 1000px;
+  padding: 100px 0 100px 0;
+}
+
+.skillsSummary {
+  display: inline-block;
+  text-align: left;
+  width: 490px;
+}
+
+.skillsSummary2 {
+  display: inline-block;
+  text-align: left;
+  width: 490px;
+  position: relative;
+  bottom: 92px;
+}
+
+.skillsSummary:first-child {
+  margin-right: 20px;
+}
+
+.skillHeader {
+  font-size: 3.4em;
+}
+
+.skillTitle {
+  font-size: larger;
+}
+
+.skillTitleJS {
+  font-size: larger;
+}
+
+li {
+  list-style: none;
+}
+
+.linebreak {
+  height: 20px;
+}
+
+/* 
+################################ 
+Friends Section
+################################
+*/
+
+.friendsCard {
+  margin: auto;
+  width: 1000px;
+  padding: 100px 0 100px 0;
+}
+
+.friends {
+  margin: auto;
+  width: 1100px;
+  background-color: cadetblue;
+  padding: 100px 0 100px 0;
+  
+}
+
+.friendImages {
+  /* border: red solid 5px; */
+  width: 240px;
+  margin-left: 50px;
+  border-radius: 50%;
+  /* text-align: center; */
+  border: rgb(0, 0, 0) solid 2px;
+  margin-top: 10px;
+}
