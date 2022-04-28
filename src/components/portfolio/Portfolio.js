@@ -1,11 +1,11 @@
 import LocationOnOutlinedIcon from "@mui/icons-material/LocationOnOutlined";
 import landscapeImage from "../images/landscape-final.jpg";
+import landscapeImageWide from "../images/landscape-wide.jpg";
 import Nav from "./portFolioNav/Portfolio-Nav";
 import PortfolioSkills from "./portfolioSkills/portfolioSkills";
 import PortfolioProject from "./portfolioProjects/PortfolioProjects";
 import PortfolioAbout from "./portfolioAbout/portfolioAbout";
 import "./Portfolio.css";
-
 import PortfolioOfFriends from "./portfolioFriends/PortfolioOfFriends";
 
 export default function portfolio(props) {
@@ -13,7 +13,7 @@ export default function portfolio(props) {
     <>
       <div className="widthMaster">
         {/* <div className="landscapeImgBox"> */}
-          <img src={landscapeImage} alt="landscape" className="landscapeImg" />
+          <img src={landscapeImageWide} alt="landscape" className="landscapeImg" />
         {/* </div> */}
         <div className="intro ">
           <h1>Hello, I'm Charlie.</h1>

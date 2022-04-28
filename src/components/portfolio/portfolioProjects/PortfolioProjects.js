@@ -31,9 +31,9 @@ export default function portfolioProjects(props) {
             alt="Dev"
             className="projectImg"
           />
-        </div>
         <div className="backToTop" onClick={() => window.scrollTo(0, 0)}>
           <ArrowCircleUpIcon fontSize="larger" /> Back to the top
+        </div>
         </div>
       </div>
     </>

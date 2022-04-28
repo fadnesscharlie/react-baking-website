@@ -3,7 +3,6 @@ import profilePic from "../../images/Profile-Pic-Resized.jpg";
 import HomeIcon from '@mui/icons-material/Home';
 import WorkIcon from '@mui/icons-material/Work';
 import SchoolIcon from '@mui/icons-material/School';
-import ArrowCircleUpIcon from '@mui/icons-material/ArrowCircleUp';
 import ConnectWithoutContactIcon from '@mui/icons-material/ConnectWithoutContact';
 import GroupIcon from '@mui/icons-material/Group';
 
@@ -56,17 +55,11 @@ export default function Nav(props) {
             <GroupIcon fontSize='larger' />{" "}
             Friends
           </li>
-
-
-
           <li className="portListLi" onClick={() => window.scrollTo(0, 10000)}>
           <ConnectWithoutContactIcon fontSize='larger' />{" "}
             Contact
           </li>
-          <li className="portListLi" onClick={() => window.scrollTo(0, 0)}>
-          <ArrowCircleUpIcon fontSize='larger' />{" "}
-            Back to the top
-          </li>
+          
         </ul>
       </aside>
     </>

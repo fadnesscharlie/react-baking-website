@@ -1,6 +1,6 @@
 .widthMaster {
   background-color: cadetblue;
-  margin-left: 10%;
+  /* margin-left: 10%; */
 
 }
 
@@ -31,9 +31,9 @@ Intro Section
   display: block;
   margin: auto;
   margin-top: 60px;
-  padding: 0px 10px 10px 10px;
+  padding: 0px 0px 10px 0px;
   background-color: #c4beac;
-  /* width: 1400px; */
+  width: 100%;
   
 }
 
@@ -150,7 +150,7 @@ Friends Section
 
 .friendsCard {
   margin: auto;
-  width: 1000px;
+  /* width: 1000px; */
   padding: 100px 0 100px 0;
 }
 
