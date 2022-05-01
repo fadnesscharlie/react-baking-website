@@ -2,6 +2,7 @@ import ArrowCircleUpIcon from "@mui/icons-material/ArrowCircleUp";
 
 export default function portfolioAbout(props) {
   return(
+    
     <>
       <div className="about">
           <h2>About the Optimistic Coder</h2>
@@ -29,3 +30,4 @@ export default function portfolioAbout(props) {
     </>
   )
 }
+

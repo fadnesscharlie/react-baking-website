@@ -1,0 +1,25 @@
+.productHeader {
+  /* border: red solid 5px; */
+  margin-top: 60px;
+}
+
+.productCardImg {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.productCardBox{
+  margin: 10px;
+}
+
+.productCardBox p {
+  height: 70px;
+  margin-top: 20px;
+}
+
+.productCardImgModal {
+  max-width: 900px;
+  max-height: 900px;
+  margin: auto;
+}

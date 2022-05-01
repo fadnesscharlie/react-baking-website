@@ -213,3 +213,113 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/linkedin_username
 [product-screenshot]: images/screenshot.png
+
+
+Reference Site
+
+Minialist/Modern
+  gottisweets.com
+  faire.com
+  https://honeyberrystudios.com/
+  cheyennebarton.com
+  clammyheart.shop
+    Good Reference
+
+Cottage Core
+Modern
+Sleek
+Vintage
+  Cursive Text
+  Wedding Website
+  Curling things
+  softer colors
+Goblin Core
+Angel Core
+Fairy Core
+
+
+
+Sleek design is near minamilist
+Text is less, more images
+All back background
+
+# Logo
+Cats and cake
+Line work style
+
+
+
+## Main page
+
+Big title
+Images describing your site, not as many words
+
+
+## Products 
+Images all the same size
+
+Filter Buttons
+  Use Images instead of words for filter
+
+
+Click through images, from left to right accordian?
+Inside card, color matches background and words are under it
+
+
+
+## Theme
+
+  banner at top
+  Text one side, image to one side
+  full bleed white
+  Photos in grid
+  Same crop size
+
+
+
+vintage-mordern
+Soft white
+
+
+modern
+Bolder
+Deep red
+
+
+Retro
+Dark brown
+Soft brown
+grey
+
+
+Font style
+San Seref
+
+
+Colors
+
+2-3 primary background colors
+#C7DCDD
+#A4S434
+#FAEDB4
+
+secondary colors
+#795139
+
+
+others 
+  limy green
+
+
+EXTRAS FOR COLORS
+Green is growth
+Blue is calm
+Yellow is happy
+Red is intense
+  not really main, but complentarty
+    Button widgets
+Purple is Royal color
+Black is modern/intense
+White is modern
+Orange is intense
+

@@ -1,5 +1,5 @@
 import LocationOnOutlinedIcon from "@mui/icons-material/LocationOnOutlined";
-import landscapeImage from "../images/landscape-final.jpg";
+// import landscapeImage from "../images/landscape-final.jpg";
 import landscapeImageWide from "../images/landscape-wide.jpg";
 import Nav from "./portFolioNav/Portfolio-Nav";
 import PortfolioSkills from "./portfolioSkills/portfolioSkills";
@@ -34,5 +34,6 @@ export default function portfolio(props) {
 
       <Nav />
     </>
+    
   );
 }
