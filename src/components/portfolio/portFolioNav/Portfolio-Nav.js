@@ -22,6 +22,7 @@ export default function Nav(props) {
               href="https://www.linkedin.com/in/cfadness/"
               target="_blank"
               className="iconLink"
+              rel="noreferrer"
             >
               <i className="fa fa-linkedin-square" aria-hidden="true"></i>
             </a>
@@ -32,6 +33,7 @@ export default function Nav(props) {
               href="https://github.com/fadnesscharlie"
               target="_blank"
               className="iconLink"
+              rel="noreferrer"
             >
               <i className="fa-brands fa-github" aria-hidden="true"></i>
             </a>
