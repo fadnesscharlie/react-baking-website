@@ -20,6 +20,7 @@ export default function Main(props) {
 
 
           <p>Look into how other websites load their main page</p>
+          <p>Add colors from README page</p>
 
              {/* <img src="https://via.placeholder.com/250" alt="Dev" className="bakerImg" /> */}
     </>
