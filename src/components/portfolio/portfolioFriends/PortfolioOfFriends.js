@@ -43,6 +43,7 @@ export default function PortfolioOfFriends(props) {
                           href={data.linkedIn}
                           target="_blank"
                           className="iconLink"
+                          rel="noreferrer"
                         >
                           LinkedIn
                         </a>
@@ -57,6 +58,7 @@ export default function PortfolioOfFriends(props) {
                           href={data.github}
                           target="_blank"
                           className="iconLink"
+                          rel="noreferrer"
                         >
                           GitHub
                         </a>
@@ -71,6 +73,7 @@ export default function PortfolioOfFriends(props) {
                           href={data.portfolio}
                           target="_blank"
                           className="iconLink"
+                          rel="noreferrer"
                         >
                           Profile
                         </a>

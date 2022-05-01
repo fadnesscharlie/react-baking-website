@@ -18,6 +18,9 @@ export default function Main(props) {
           developing - problem solving
           code challenges create new projects</p>
 
+
+          <p>Look into how other websites load their main page</p>
+
              {/* <img src="https://via.placeholder.com/250" alt="Dev" className="bakerImg" /> */}
     </>
   );

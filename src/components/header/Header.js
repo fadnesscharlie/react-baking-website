@@ -1,6 +1,6 @@
 import "./Header.css";
 import { Link } from "react-router-dom";
-import profileIcon from "../images/Profile-Pic-Resized.jpg";
+// import profileIcon from "../images/Profile-Pic-Resized.jpg";
 
 export default function Header(props) {
   return (
