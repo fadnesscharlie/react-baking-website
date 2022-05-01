@@ -1,13 +1,13 @@
 import "./Header.css";
 import { Link } from "react-router-dom";
-import profileIcon from "../images/Profile-Pic-Resized.jpg";
+// import profileIcon from "../images/Profile-Pic-Resized.jpg";
 
 export default function Header(props) {
   return (
     <header>
-      <Link to="/">
+      {/* <Link to="/">
         <img className="icon" src={profileIcon} alt="Site Icon" />
-      </Link>
+      </Link> */}
 
       <h1 className="title">Charlie's Baked Goods || Header</h1>
 

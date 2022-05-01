@@ -1,0 +1,67 @@
+.devInfo {
+  margin: auto;
+  /* width: 60%; */
+}
+
+
+.bakerInfo {
+  font-size: larger;  
+}
+
+.startTag {
+  font-size: 1.6em;
+  /* margin: 100px ; */
+  color: firebrick;
+}
+
+.backgroundMain {
+  margin: auto;
+  padding-top: 100px;
+  width: 60%;
+  z-index: 2;
+  position: relative;
+  /* color: rgb(197, 196, 184); */
+  color: #000000
+
+}
+
+.wordText {
+  color: #000000
+  /* background-image: linear-gradient(to right, #E0F8F7, #000000);
+  color: transparent;
+  background-clip: text; */
+}
+
+.mainComponentBody {
+  background-image: url('../images/silhouette.jpg');
+  background-size: 100%;
+  position: fixed;
+  background-repeat: repeat;
+  padding: 1000px;
+  
+}
+
+.picBorder {
+  border: rgb(0, 0, 0) solid 5px;
+  padding: 10px;
+  background-color: azure;
+  margin: 10px;
+}
+
+.firstCatCake {
+  /* width: 200px; */
+  float: right;
+  height: 250px;
+}
+
+.ubeCake {
+  float: right;
+  width: 250px;
+}
+
+
+.kimBirthdayCake {
+  width: 300px;
+  float: right;
+
+}

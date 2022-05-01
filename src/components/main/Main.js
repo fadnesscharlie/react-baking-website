@@ -1,14 +1,35 @@
 
-
 export default function Main(props) {
   return (
     <>
       <h1>
-        THis is the main page!
+        Charlie The Baker
       </h1>
-      <p>
-        Welcome! My name is Charlie! A Software Developer, Massage Therapist, and Baker.
-      </p>
+      <p>Add in some information about baking<br /><br />
+      As a Software Developer, Massage Therapist, and Baker, I have
+          incorporated these skills in ways that made me understand how to be
+          compassionate with others, listen in depth to fully understand, create
+          great works of art that not only taste great, but bring joy to those
+          <br /><br />
+          massage - compassionate understanding listening client service 
+          <br />
+          baking - specific creative challenging logical 
+          <br />
+          developing - problem solving
+          code challenges create new projects</p>
+
+
+          <p>Look into how other websites load their main page</p>
+          <p>Add colors from README page</p>
+
+             {/* <img src="https://via.placeholder.com/250" alt="Dev" className="bakerImg" /> */}
     </>
-  )
+  );
 }
+
+
+
+
+
+
+
