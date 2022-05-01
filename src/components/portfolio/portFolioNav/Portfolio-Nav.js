@@ -11,7 +11,7 @@ export default function Nav(props) {
     <>
       <aside className="portfolio-nav">
         <section className="picNameLinks">
-          <img src={profilePic} alt="profile picture" className="profilePic" onClick={() => window.scrollTo(0, 0)}/>
+          <img src={profilePic} alt="profile" className="profilePic" onClick={() => window.scrollTo(0, 0)}/>
 
           <div className="name">
             <strong>Charlie Fadness</strong>

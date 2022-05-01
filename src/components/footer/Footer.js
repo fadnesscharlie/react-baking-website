@@ -56,6 +56,7 @@ export default function Footer(props) {
                       href="https://www.facebook.com/Charlies-Baked-Goods-107589064076409"
                       target="_blank"
                       className="iconLink"
+                      rel="noreferrer"
                     >
                       <i className="fa fa-facebook" aria-hidden="true"></i>
                     </a>
@@ -65,6 +66,7 @@ export default function Footer(props) {
                       href="https://www.linkedin.com/in/cfadness/"
                       target="_blank"
                       className="iconLink"
+                      rel="noreferrer"
                     >
                       <i className="fa fa-linkedin-square" aria-hidden="true"></i>
                     </a>
@@ -74,6 +76,7 @@ export default function Footer(props) {
                       href="https://github.com/fadnesscharlie"
                       target="_blank"
                       className="iconLink"
+                      rel="noreferrer"
                     >
                       <i className="fa-brands fa-github" aria-hidden="true"></i>
                     </a>
@@ -83,6 +86,7 @@ export default function Footer(props) {
                       href="https://www.instagram.com/charliesbakedgoods/?hl=en"
                       target="_blank"
                       className="iconLink"
+                      rel="noreferrer"
                     >
                       <i className="fa fa-instagram" aria-hidden="true"></i>
                     </a>
