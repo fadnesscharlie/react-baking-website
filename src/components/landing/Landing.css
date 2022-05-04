@@ -1,12 +1,12 @@
 
-.landing {
+/* .landing {
   background-color: red;
-}
+} */
 
 .mainBody {
   width: 1024px;
   margin: auto;
-  background-color: beige;
+  background-color: #C7DCDD;
   /* height: 100vh; */
   padding: 10px;
 }

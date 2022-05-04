@@ -300,7 +300,7 @@ Colors
 
 2-3 primary background colors
 #C7DCDD
-#A4S434
+#A4434
 #FAEDB4
 
 secondary colors

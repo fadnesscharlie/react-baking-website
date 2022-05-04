@@ -9,10 +9,10 @@
 @import url("https://fonts.googleapis.com/css?family=Rubik&display=swap");
 
 body {
-  background: linear-gradient(0deg, #fff, 50%, #deeefe);
+  background: linear-gradient(0deg, #C7DCDD, 50%, #C7DCDD);
   font-family: "Rubik", sans-serif;
   /* background: #455a64; */
-  background: aquamarine;
+  /* background: aquamarine; */
   height: 100 !important;
 }
 

@@ -1,0 +1,25 @@
+.color1 {
+  padding: 100px;
+  background-color: #C7DCDD;
+  border: black solid 5px;
+}
+
+.color2 {
+  padding: 100px;
+  background-color: #A44340;
+}
+
+.color3 {
+  padding: 100px;
+  background-color: #FAEDB4;
+}
+
+.color4 {
+  padding: 100px;
+  background-color: #795139;
+}
+
+/* .color5 {
+  padding: 100px;
+  background-color: #FAEDB4;
+} */

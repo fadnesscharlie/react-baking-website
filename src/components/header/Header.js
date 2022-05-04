@@ -9,7 +9,7 @@ export default function Header(props) {
         <img className="icon" src={profileIcon} alt="Site Icon" />
       </Link> */}
 
-      <h1 className="title">Charlie's Baked Goods || Header</h1>
+      <h1 className="title">Charlie's Baked Goods</h1>
 
       <nav>
         <ul>

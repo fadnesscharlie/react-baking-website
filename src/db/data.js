@@ -1,11 +1,11 @@
 import Assortedcookie from "../productImages/AssortedCookies.jpg";
 import BabySeanBirthday from "../productImages/BabySeanBirthday.jpg";
-import BlackberryGMLPie from "../productImages/BlackberryGMLPie.jpg";
-import BlackberryPie from "../productImages/BlackberryPie.jpg";
+import GLMBlackberryPie from "../productImages/BlackberryGMLPie.jpg";
+import BlueberryPie from "../productImages/BlackberryPie.jpg";
 import BlackberryPie2 from "../productImages/BlackberryPie2.jpg";
 import BlackForestSideview from "../productImages/BlackForestSideview.jpg";
 import BlackForestTopview from "../productImages/BlackForestTopview.jpg";
-import BlueberryPie from "../productImages/BlueberryPie.jpg";
+import BlueberryPie2 from "../productImages/BlueberryPie.jpg";
 import ChallahBread from "../productImages/ChallahBread.jpg";
 import ChinhBirthday55 from "../productImages/ChinhBirthday55.jpg";
 import ChocolateCupcakes from "../productImages/ChocolateCupcakes.jpg";
@@ -74,21 +74,12 @@ export const data = [
     other: "NA",
   },
   {
-    image_url: BlackberryGMLPie,
-    title: "Pie for work place anniversary",
-    keyword: "pie, blackberry",
+    image_url: BlueberryPie,
+    title: "HomeMade Blue Berry Pie with a lattice crust",
+    keyword: "pie, blueberry",
     cake: "NA",
     frosting: "NA",
-    filling: "blackberry",
-    other: "pie",
-  },
-  {
-    image_url: BlackberryPie,
-    title: "HomeMade Black Berry Pie with a lattice crust",
-    keyword: "pie, blackberry",
-    cake: "NA",
-    frosting: "NA",
-    filling: "blackberry",
+    filling: "blueberry",
     other: "pie",
   },
   {
@@ -119,7 +110,7 @@ export const data = [
     other: "alcohol",
   },
   {
-    image_url: BlueberryPie,
+    image_url: BlueberryPie2,
     title: "Blueberry Pie",
     keyword: "pie, blueberry",
     cake: "NA",
@@ -236,6 +227,15 @@ export const data = [
     frosting: "NA",
     filling: "NA",
     other: "custom",
+  },
+  {
+    image_url: GLMBlackberryPie,
+    title: "Pie for work place anniversary",
+    keyword: "pie, blackberry",
+    cake: "NA",
+    frosting: "NA",
+    filling: "blackberry",
+    other: "pie",
   },
   {
     image_url: GlutenDairyFreeSwissMeringue,

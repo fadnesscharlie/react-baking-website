@@ -33,7 +33,7 @@ export default function portfolioSkills(props) {
 
               <hr style={{ height: "2px" }}></hr>
               <li>
-                <strong className="skillTitleJS">
+                <strong className="skillTitle">
                   Advanced Software Development in Full-Stack JavaScript
                 </strong>
               </li>
