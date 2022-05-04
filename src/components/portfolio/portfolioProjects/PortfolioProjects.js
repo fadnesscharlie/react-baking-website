@@ -3,7 +3,7 @@ import ArrowCircleUpIcon from "@mui/icons-material/ArrowCircleUp";
 export default function portfolioProjects(props) {
   return (
     <>
-      <div className="widthMaster">
+      <div className="backgroundColorPaleWhite">
         <div className="projects">
           <h2>Highlighted Projects</h2>
 

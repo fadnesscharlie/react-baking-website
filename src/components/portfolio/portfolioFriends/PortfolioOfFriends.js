@@ -9,7 +9,7 @@ import ArrowCircleUpIcon from "@mui/icons-material/ArrowCircleUp";
 
 export default function PortfolioOfFriends(props) {
   return (
-    <div className="widthMaster">
+    <div className="backgroundColorPaleWhite">
       <Box sx={{ flexGrow: 1 }} className="friends">
         <Grid
           container

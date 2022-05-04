@@ -1,16 +1,14 @@
-.widthMaster {
-  background-color: cadetblue;
-  /* margin-left: 10%; */
+.backgroundColorPaleWhite {
+  background-color: #C7DCDD;
+}
 
+.backgroundColorPaleRed {
+  background-color: #A44340;
 }
 
 .backToTop {
-  /* position: fixed; */
-  /* right: 0; */
-  /* border: red solid 5000000000000000000px; */
   margin: auto;
   width: auto;
-  /* text-align: center; */
 }
 
 .backToTopSkills {
@@ -31,31 +29,18 @@ Intro Section
   display: block;
   margin: auto;
   margin-top: 60px;
-  padding: 0px 0px 10px 0px;
-  background-color: #c4beac;
   width: 100%;
-  
-}
-
-.landscapeImgBox {
-  /* border: red solid 5px; */
-  background-color: cadetblue;
-  padding-top: 10px;
-
 }
 
 .intro {
   padding: 100px 0 200px 0;
   text-align: center;
-  background-color: cadetblue;
   position: relative;
   bottom: 20px;
-
 }
 
 .portfolio {
   margin: auto;
-  /* width: 600px; */
 }
 
 /* 
@@ -68,8 +53,6 @@ About Section
   text-align: center;
   width: 600px;
   padding: 100px 0 100px 0;
-
-
 }
 
 /* 
@@ -82,10 +65,8 @@ Projects Section
   width: 1000px;
   margin: auto;
   text-align: center;
-  background-color: cadetblue;
+  /* background-color: #C7DCDD; */
   padding: 100px 0 100px 0;
-
-
 }
 
 .projectImg {
@@ -130,10 +111,6 @@ Skills Section
   font-size: larger;
 }
 
-.skillTitleJS {
-  font-size: larger;
-}
-
 li {
   list-style: none;
 }
@@ -150,24 +127,20 @@ Friends Section
 
 .friendsCard {
   margin: auto;
-  /* width: 1000px; */
   padding: 100px 0 100px 0;
 }
 
 .friends {
   margin: auto;
   width: 1100px;
-  background-color: cadetblue;
+  background-color: #C7DCDD;
   padding: 100px 0 100px 0;
-  
 }
 
 .friendImages {
-  /* border: red solid 5px; */
   width: 240px;
   margin-left: 50px;
   border-radius: 50%;
-  /* text-align: center; */
   border: rgb(0, 0, 0) solid 2px;
   margin-top: 10px;
 }

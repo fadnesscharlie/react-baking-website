@@ -1,5 +1,4 @@
 import LocationOnOutlinedIcon from "@mui/icons-material/LocationOnOutlined";
-// import landscapeImage from "../images/landscape-final.jpg";
 import landscapeImageWide from "../images/landscape-wide.jpg";
 import Nav from "./portFolioNav/Portfolio-Nav";
 import PortfolioSkills from "./portfolioSkills/portfolioSkills";
@@ -11,10 +10,8 @@ import PortfolioOfFriends from "./portfolioFriends/PortfolioOfFriends";
 export default function portfolio(props) {
   return (
     <>
-      <div className="widthMaster">
-        {/* <div className="landscapeImgBox"> */}
+      <div className="widthMaster backgroundColorPaleWhite">
           <img src={landscapeImageWide} alt="landscape" className="landscapeImg" />
-        {/* </div> */}
         <div className="intro ">
           <h1>Hello, I'm Charlie.</h1>
           <h3>Full Stack Developer</h3>
@@ -25,7 +22,7 @@ export default function portfolio(props) {
           <div>Welcome to my developer portfolio.</div>
         </div>
       </div>
-      <div className="portfolio">
+      <div className="portfolio backgroundColorPaleRed">
         <PortfolioAbout />
         <PortfolioProject />
         <PortfolioSkills />
