@@ -1,6 +1,48 @@
 .App {
   /* text-align: center; */
-  background-color: #C7DCDD;
+  background-color: #c7dcdd;
   height: 100vh;
+  font-family: "Alegreya", serif;
+  font-family: "Noto Sans", sans-serif;
 }
 
+.backgroundColorPaleWhite {
+  background-color: #c7dcdd;
+}
+
+.headerColorOnLight {
+  color: rgb(121, 81, 57);
+}
+
+.backgroundColorPaleRed {
+  background-color: #a44340;
+}
+
+.borderColorWhite {
+  border: #FAEDB4 solid 3px;
+  width: 140px;
+  padding: 2px;
+}
+
+.borderColorBrown {
+  border: rgb(121, 81, 57) solid 3px;
+  width: 140px;
+  padding: 2px;
+}
+
+.headerColorOnDark {
+  color: #FAEDB4;
+}
+
+.width1000 {
+  width: 1000px;
+}
+
+li {
+  list-style: none;
+}
+
+.marginWidthAuto {
+ margin: auto;
+ width: auto;
+}

@@ -10,11 +10,11 @@ import PortfolioOfFriends from "./portfolioFriends/PortfolioOfFriends";
 export default function portfolio(props) {
   return (
     <>
-      <div className="widthMaster backgroundColorPaleWhite">
+      <div className="widthMaster backgroundColorPaleWhite headerColorOnLight">
           <img src={landscapeImageWide} alt="landscape" className="landscapeImg" />
         <div className="intro ">
           <h1>Hello, I'm Charlie.</h1>
-          <h3>Full Stack Developer</h3>
+          <h3>Full Stack Software Developer <br />Focused in Front End Applications</h3> <br />
           <h4>Aka: Optimistic Coder</h4>
           <p>
             <LocationOnOutlinedIcon /> Renton, WA
@@ -30,7 +30,6 @@ export default function portfolio(props) {
       </div>
 
       <Nav />
-    </>
-    
+    </>    
   );
 }

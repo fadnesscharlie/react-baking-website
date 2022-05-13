@@ -43,7 +43,7 @@ small {
   ) !important;
 }
 
-h3 {
+.h3 {
   font-size: calc(
     34px + (40 - 34) * ((100vw - 360px) / (1600 - 360))
   ) !important;

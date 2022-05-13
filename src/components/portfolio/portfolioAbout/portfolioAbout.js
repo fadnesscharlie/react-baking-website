@@ -4,8 +4,8 @@ export default function portfolioAbout(props) {
   return(
     
     <>
-      <div className="about">
-          <h2>About the Optimistic Coder</h2>
+      <div className="about width1000 headerColorOnDark">
+          <h2 className='headerTitles'>About the Optimistic Coder</h2>
           <p>
             As for being a person who inspires other with optimism, I look
             forward to being the best we can be. A strive for excellence,
@@ -23,7 +23,7 @@ export default function portfolioAbout(props) {
             then... reaching your goal and finding the answer is what makes it
             all worth it.
           </p>
-        <div className="backToTop" onClick={() => window.scrollTo(0, 0)}>
+        <div className="backToTop borderColorWhite rounded-pill" onClick={() => window.scrollTo(0, 0)}>
         <ArrowCircleUpIcon fontSize="larger" /> Back to the top
       </div>
         </div>

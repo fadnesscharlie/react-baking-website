@@ -9,8 +9,10 @@ import ArrowCircleUpIcon from "@mui/icons-material/ArrowCircleUp";
 
 export default function PortfolioOfFriends(props) {
   return (
-    <div className="backgroundColorPaleWhite">
+    <div className="backgroundColorPaleWhite headerColorOnLight">
       <Box sx={{ flexGrow: 1 }} className="friends">
+      <h2 className='headerTitles width1000 portfolio '>Friend Recommendations!</h2>
+      <h5 className='friendRefer width1000'>I may not be the right fit, but I do know some amazing people in the industry that I have worked with personally - I have the highest regard for the following, please check them out!</h5>
         <Grid
           container
           spacing={{ xs: 2, md: 3 }}
@@ -87,7 +89,7 @@ export default function PortfolioOfFriends(props) {
             </Grid>
           ))}
           ;
-          <div className="backToTop" onClick={() => window.scrollTo(0, 0)}>
+          <div className="backToTop rounded-pill borderColorBrown" onClick={() => window.scrollTo(0, 0)}>
             <ArrowCircleUpIcon fontSize="larger" /> Back to the top
           </div>
         </Grid>
