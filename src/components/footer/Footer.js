@@ -9,7 +9,7 @@ export default function Footer(props) {
           <div className="col-11">
             <div className="row ">
               <div className="col-xl-8 col-md-4 col-sm-4 col-12 my-auto mx-auto a">
-                <h3 className="text-muted mb-md-0 mb-5 bold-text">
+                <h3 className="text-muted mb-md-0 mb-5 bold-text h3">
                   Charlie's Baked Goods
                 </h3>
               </div>

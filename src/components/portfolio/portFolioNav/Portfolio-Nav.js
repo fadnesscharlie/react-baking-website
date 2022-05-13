@@ -9,8 +9,8 @@ import GroupIcon from '@mui/icons-material/Group';
 export default function Nav(props) {
   return (
     <>
-      <aside className="portfolio-nav">
-        <section className="picNameLinks">
+      <aside className="portfolio-nav headerColorOnDark">
+        <section className="picNameLinks ">
           <img src={profilePic} alt="profile" className="profilePic" onClick={() => window.scrollTo(0, 0)}/>
 
           <div className="name">

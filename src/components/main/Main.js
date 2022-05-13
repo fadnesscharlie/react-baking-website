@@ -6,7 +6,7 @@ export default function Main(props) {
       <h1>
         Charlie The Baker
       </h1>
-      <p>Add in some information about baking<br /><br />
+      <p className='border border-primary'>Add in some information about baking<br /><br />
       As a Software Developer, Massage Therapist, and Baker, I have
           incorporated these skills in ways that made me understand how to be
           compassionate with others, listen in depth to fully understand, create
