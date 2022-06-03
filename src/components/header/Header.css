@@ -1,13 +1,9 @@
 header {
-  background-color: #FAEDB4;
   position: fixed;
-  /* bottom: 22px; */
   width: 100%;
   height: 60px;
-  /* color:black; */
   z-index: 99;
 }
-
 
 .icon {
   float: left;
@@ -15,17 +11,11 @@ header {
   border-radius: 10px;
 }
 
-.title {
-  text-align: center;
-  position: relative;
-  top: 5px;
-}
-
 nav {
   position: relative;
+  top: 10px;
   bottom: 40px;
   text-align: right;
-  /* border: red solid 5px; */
 }
 
 .navListLi {

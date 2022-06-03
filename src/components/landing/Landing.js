@@ -21,7 +21,7 @@ export default function Landing(props) {
       <div className="mainBody width1000">
         <Routes>
           <Route path="products" element={<Products />} />
-          <Route path="/" element={<Main />} />
+          <Route index element={<Main />} />
         </Routes>
       </div>
       <Routes>

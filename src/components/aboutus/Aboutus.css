@@ -11,7 +11,8 @@
 .startTag {
   font-size: 1.6em;
   /* margin: 100px ; */
-  color: firebrick;
+  color: #a44340;
+  /* color: #000000; */
 }
 
 .backgroundMain {
@@ -21,12 +22,12 @@
   z-index: 2;
   position: relative;
   /* color: rgb(197, 196, 184); */
-  color: #000000
+  color: #eee9d4
 
 }
 
 .wordText {
-  color: #000000
+  color: #eee9d4
   /* background-image: linear-gradient(to right, #E0F8F7, #000000);
   color: transparent;
   background-clip: text; */

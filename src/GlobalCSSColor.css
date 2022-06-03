@@ -1,0 +1,44 @@
+.App {
+  background-color: #eee9d4;
+  
+}
+
+/* Landing */
+/* Not in Use */
+.landingBackgroundColor {
+  background-color: #C7DCDD;
+}
+
+/* Back to Top Buttons - Portfolio page */
+.borderColorWhite {
+  border: #eee9d4 solid 3px;
+}
+
+.borderColorBrown {
+  border: rgb(121, 81, 57) solid 3px;
+}
+
+/* Portfolio Page */
+.backgroundColorPaleWhite {
+  background-color: #c7dcdd;
+  /* background-color: #eee9d4; */
+}
+.headerColorOnLight {
+  color: rgb(121, 81, 57);
+}
+
+.backgroundColorPaleRed {
+  background-color: #a44340;
+  /* background-color: #C7DCDD; */
+}
+.headerColorOnDark {
+  color: #eee9d4;
+  /* color: rgb(121, 81, 57); */
+}
+
+header {
+  /* background-color: #a44340; */
+  /* background-color: #c7dcdd; */
+  background-color: #eee9d4;
+
+}
