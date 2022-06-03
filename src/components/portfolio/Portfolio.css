@@ -3,10 +3,16 @@
 .backToTop {
   margin: auto;
   width: auto;
+  width: 140px;
+  padding: 2px;
 }
 
 .textLarger {
   font-size: larger;
+}
+
+.textXLarge {
+  font-size: x-large;
 }
 
 .headerTitles {
@@ -63,14 +69,25 @@ Projects Section
 
 .projectImg {
   margin: 10px;
+  max-height: 800px;
+  min-width: 1000px;
 }
 
-.projectImgBoard {
+.floofFinderDescription {
   border: red solid 5px;
 }
 
 .stretchGoals {
   text-align: left;
+}
+
+.projectBullet > li:not(:first-child) {
+  font-size: large;
+  /* color: aqua; */
+}
+.projectBullet > li:first-child {
+  font-size: x-large;
+  text-decoration: underline;
 }
 
 /* 

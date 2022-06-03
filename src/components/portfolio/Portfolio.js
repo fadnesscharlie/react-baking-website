@@ -14,7 +14,7 @@ export default function portfolio(props) {
           <img src={landscapeImageWide} alt="landscape" className="landscapeImg" />
         <div className="intro ">
           <h1>Hello, I'm Charlie.</h1>
-          <h3>Full Stack Software Developer <br />Focused in Front End Applications</h3> <br />
+          <h3>Full Stack Software Developer </h3> 
           <h4>Aka: Optimistic Coder</h4>
           <p>
             <LocationOnOutlinedIcon /> Renton, WA

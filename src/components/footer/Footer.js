@@ -9,8 +9,8 @@ export default function Footer(props) {
           <div className="col-11">
             <div className="row ">
               <div className="col-xl-8 col-md-4 col-sm-4 col-12 my-auto mx-auto a">
-                <h3 className="text-muted mb-md-0 mb-5 bold-text h3">
-                  Charlie's Baked Goods
+                <h3 className="text-muted mb-md-0 mb-5 bold-text h3 ">
+                  Charlie Fadness, LMP, Baker, Developer
                 </h3>
               </div>
               <div className="col-xl-2 col-md-4 col-sm-4 col-12">
@@ -44,7 +44,7 @@ export default function Footer(props) {
                 <h6 className="mb-3 mb-lg-4 text-muted bold-text mt-sm-0 mt-5">
                   <b>LOCATION</b>
                 </h6>
-                <p className="mb-1">Renton, WA</p>
+                <p className="mb-1 footerFontColor">Renton, WA</p>
               </div>
             </div>
             <div className="row ">
@@ -92,8 +92,8 @@ export default function Footer(props) {
                     </a>
                   </span>{" "}
                 </p>
-                <small className="rights">
-                  <span>&#174;</span> Charlie's Baked Goods
+                <small className="rights footerFontColor">
+                  <span>&#174;</span> Charlie Fadness
                 </small>
               </div>
               <div className="col-xl-2 col-md-4 col-sm-4 col-auto order-1 align-self-end ">
@@ -123,9 +123,9 @@ export default function Footer(props) {
                   </span>{" "}
                   <a
                     className="emailLink"
-                    href="mailto:fadness.charlie@outlook.com?subject=Reaching out from your Portfolio"
+                    href="mailto:fadness.charlie@gmail.com?subject=Reaching out from your Portfolio"
                   >
-                    fadness.charlie@outlook.com
+                    fadness.charlie@gmail.com
                   </a>{" "}
                 </small>
               </div>

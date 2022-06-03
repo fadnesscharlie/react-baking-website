@@ -34,7 +34,7 @@ export default function Products(props) {
 
   return (
     <>
-      <h1 className="productHeader">This is the Products Page</h1>
+      <h1 className="productHeader">Products Page Under Construction, Please bear with us, but enjoy the baked goods!</h1>
 
       <Grid container spacing={2}>
         {products}

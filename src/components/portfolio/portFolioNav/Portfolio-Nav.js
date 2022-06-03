@@ -41,7 +41,7 @@ export default function Nav(props) {
         </section>
 
         <ul className="portList">
-          <li className="portListLi" onClick={() => window.scrollTo(0, 1000)}>
+          <li className="portListLi" onClick={() => window.scrollTo(0, 1050)}>
             <HomeIcon fontSize='larger' />{" "}
             About
           </li>
@@ -49,11 +49,11 @@ export default function Nav(props) {
             < WorkIcon fontSize='larger' />{" "}
             Projects
           </li>
-          <li className="portListLi" onClick={() => window.scrollTo(0, 2850)}>
+          <li className="portListLi" onClick={() => window.scrollTo(0, 4750)}>
             <SchoolIcon fontSize='larger' />{" "}
             Work & Education
           </li>
-          <li className="portListLi" onClick={() => window.scrollTo(0, 3550)}>
+          <li className="portListLi" onClick={() => window.scrollTo(0, 5450)}>
             <GroupIcon fontSize='larger' />{" "}
             Friends
           </li>

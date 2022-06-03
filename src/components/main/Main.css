@@ -1,25 +1,62 @@
-.color1 {
-  padding: 100px;
-  background-color: #C7DCDD;
-  border: black solid 5px;
+
+
+.spaceUnderHeader {
+  padding-bottom: 40px;
 }
 
-.color2 {
-  padding: 100px;
-  background-color: #A44340;
+.mainIntro {
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 3.5em;
 }
 
-.color3 {
-  padding: 100px;
-  background-color: #FAEDB4;
+.mainProfilePic img {
+  /* background-image: linear-gradient(to right, #5F9EA0, #D4AF37, #5F9EA0); */
+  outline: 15px solid rgba(238,	233,	212, .75);
+  outline-offset: -15px;
 }
 
-.color4 {
-  padding: 100px;
-  background-color: #795139;
+.MainPic {
+  width: 100%;
+  border: black solid 3px;
 }
 
-/* .color5 {
-  padding: 100px;
-  background-color: #FAEDB4;
-} */
+.factsLinks {
+  text-decoration: none;
+}
+.facts {
+  margin: 10px;
+}
+
+.facts:first-of-type {
+  margin-top: 20px;
+}
+
+.mainDescription {
+  font-size: larger;
+  margin-top: 10px;
+}
+
+.factsSection {
+  margin-top: 50px;
+
+}
+
+.mainBody {
+  margin-bottom: 50px;
+}
+
+.coreValues {
+  font-size: larger;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.whoIs {
+  text-align: center;
+}
+
+.imageLink {
+  color: rgb(0, 0, 255);
+  display: inline-block;
+}
