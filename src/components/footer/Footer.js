@@ -5,12 +5,12 @@ export default function Footer(props) {
   return (
     <div className="container-fluid pb-0 mb-0 justify-content-center text-light" >
       <footer className='footer'>
-        <div className="row my-5 justify-content-center py-5">
+        <div className="row  justify-content-center py-5">
           <div className="col-11">
             <div className="row ">
               <div className="col-xl-8 col-md-4 col-sm-4 col-12 my-auto mx-auto a">
                 <h3 className="text-muted mb-md-0 mb-5 bold-text h3 ">
-                  Charlie Fadness, LMP, Baker, Developer
+                  Charlie Fadness, Software Developer
                 </h3>
               </div>
               <div className="col-xl-2 col-md-4 col-sm-4 col-12">

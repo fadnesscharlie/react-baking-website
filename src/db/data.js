@@ -4,14 +4,12 @@ import GLMBlackberryPie from "../productImages/BlackberryGMLPie.jpg";
 import BlueberryPie from "../productImages/BlackberryPie.jpg";
 import BlackberryPie2 from "../productImages/BlackberryPie2.jpg";
 import BlackForestSideview from "../productImages/BlackForestSideview.jpg";
-import BlackForestTopview from "../productImages/BlackForestTopview.jpg";
 import BlueberryPie2 from "../productImages/BlueberryPie.jpg";
 import ChallahBread from "../productImages/ChallahBread.jpg";
 import ChinhBirthday55 from "../productImages/ChinhBirthday55.jpg";
 import ChocolateCupcakes from "../productImages/ChocolateCupcakes.jpg";
 import CoconutCake from "../productImages/CoconutCake.jpg";
 import EdselBirthdaySideview from "../productImages/EdselBirthdaySideview.jpg";
-import EdselBirthdayTopview from "../productImages/EdselBirthdayTopview.jpg";
 import FirstCatCake from "../productImages/FirstCatCake.jpg";
 import FlowerBrownies from "../productImages/FlowerBrownies.jpg";
 import FruitDecoration from "../productImages/FruitDecoration.jpg";
@@ -23,24 +21,17 @@ import HappyMistakes from "../productImages/HappyMistakes.jpg";
 import HenryBirthday from "../productImages/HenryBirthday.jpg";
 import IceCreamBrownieCake from "../productImages/IceCreamBrownieCake.jpg";
 import JudilynBirthdaySideview from "../productImages/JudilynBirthdaySideview.jpg";
-import JudilynBirthdayTopview from "../productImages/JudilynBirthdayTopview.jpg";
 import KaterraBirthday from "../productImages/KaterraBirthday.jpg";
 import KimBirthday from "../productImages/KimBirthday.jpg";
 import KimBirthday2022Closeup from "../productImages/KimBirthday2022Closeup.jpg";
-import KimBirthday2022Sideview from "../productImages/KimBirthday2022Sideview.jpg";
 import KimBirthday2022Topview from "../productImages/KimBirthday2022Topview.jpg";
-import KimBirthdayMilkTea from "../productImages/KimBirthdayMilkTea.jpg";
-import KimBirthday2022Gathering from "../productImages/KimBirthday2022Gathering.jpg";
 import LemonMeringuePie from "../productImages/LemonMeringuePie.jpg";
 import MomBirthdaySideview from "../productImages/MomBirthdaySideview.jpg";
-import MomBirthdayTopview from "../productImages/MomBirthdayTopview.jpg";
 import NunchuckCake1 from "../productImages/NunchuckCake1.jpg";
 import NunchuckCake2 from "../productImages/NunchuckCake2.jpg";
 import PeanutButterVanillaIcecream from "../productImages/PeanutButterVanillaIcecream.jpg";
-import PerfectCakeWalls from "../productImages/PerfectCakeWalls.jpg";
 import PullApartCinnominRolls from "../productImages/PullApartCinnominRolls.jpg";
 import RaspberryMeringuePie from "../productImages/RaspberryMeringuePie.jpg";
-import RaspberryMeringuePieCut from "../productImages/RaspberryMeringuePieCut.jpg";
 import RaspberrySwissRoll from "../productImages/RaspberrySwissRoll.jpg";
 import RaspberrySwissRollCut from "../productImages/RaspberrySwissRollCut.jpg";
 import SnickerdoodleCookies from "../productImages/SnickerdoodleCookies.jpg";
@@ -55,23 +46,13 @@ import VanillaSwissMeringueCupcakes from "../productImages/VanillaSwissMeringueC
 
 export const data = [
   {
-    image_url: Assortedcookie,
-    title:
-      "Assorted Cookies including: Chocolate Chip, GingerBread, and White Macadamia Nut.",
-    keyword: "cookie",
-    cake: "NA",
-    frosting: "NA",
-    filling: "NA",
-    other: "cookie",
-  },
-  {
-    image_url: BabySeanBirthday,
-    title: "Cousins First Birthday",
-    keyword: "cake, sheetCake",
-    cake: "vanilla, sponge",
-    frosting: "whipcream",
-    filling: "raspberry",
-    other: "NA",
+    image_url: PeanutButterVanillaIcecream,
+    title: "Peanut Butter Vanilla Ice Cream cake with Peanut butter cookies",
+    keyword: "peanut, vanilla, icecream, cookie, circle9inch, cake",
+    cake: "vanilla, icecream, peanutButter",
+    frosting: "vanilla, icecream",
+    filling: "peanutbutter, icecream, chocolate",
+    other: "custom",
   },
   {
     image_url: BlueberryPie,
@@ -83,13 +64,13 @@ export const data = [
     other: "pie",
   },
   {
-    image_url: BlackberryPie2,
-    title: "Homemade Black Berry Pie with filling",
-    keyword: "pie, blackberry",
-    cake: "NA",
-    frosting: "NA",
-    filling: "blackbery",
-    other: "pie",
+    image_url: ChocolateCupcakes,
+    title: "Chocolate Cupcakes with various designs",
+    keyword: "chocolate, cupcake",
+    cake: "chocolate",
+    frosting: "chocolate, buttercream",
+    filling: "NA",
+    other: "cupcake",
   },
   {
     image_url: BlackForestSideview,
@@ -101,13 +82,32 @@ export const data = [
     other: "alcohol",
   },
   {
-    image_url: BlackForestTopview,
-    title: "Black Forest Cake Top View",
-    keyword: "cake, chocolate, cherry",
+    image_url: TripleChocolateCake,
+    title:
+      "Chocolate Cake with chocolate gnache and chocolate swiss merginue buttercream for my 30th birthday,",
+    keyword: "chocolate, swissMeringueButtercream",
     cake: "chocolate",
+    frosting: "swissMeringueButtercream",
+    filling: "chocolateGnache,",
+    other: "NA",
+  },
+  {
+    image_url: BabySeanBirthday,
+    title: "Cousin's First Birthday",
+    keyword: "cake, sheetCake",
+    cake: "vanilla, sponge",
     frosting: "whipcream",
-    filling: "cherry",
-    other: "alcohol",
+    filling: "raspberry",
+    other: "NA",
+  },
+  {
+    image_url: BlackberryPie2,
+    title: "Homemade Black Berry Pie with filling",
+    keyword: "pie, blackberry",
+    cake: "NA",
+    frosting: "NA",
+    filling: "blackbery",
+    other: "pie",
   },
   {
     image_url: BlueberryPie2,
@@ -137,15 +137,6 @@ export const data = [
     other: "NA",
   },
   {
-    image_url: ChocolateCupcakes,
-    title: "Chocolate Cupcakes with various designs",
-    keyword: "chocolate, cupcake",
-    cake: "chocolate",
-    frosting: "chocolate, buttercream",
-    filling: "NA",
-    other: "cupcake",
-  },
-  {
     image_url: CoconutCake,
     title: "Coconut Cake",
     keyword: "coconut, cake, circle9inch",
@@ -165,14 +156,14 @@ export const data = [
     other: "NA",
   },
   {
-    image_url: EdselBirthdayTopview,
+    image_url: Assortedcookie,
     title:
-      "Topview of Vanilla cake with strawberry filling and swiss meringue buttercream`",
-    keyword: "cake, circle5inch, vanilla, strawberry",
-    cake: "vanilla",
-    frosting: "strawberry, swissMerginueButtercream",
-    filling: "strawberry",
-    other: "NA",
+      "Assorted Cookies including: Chocolate Chip, GingerBread, and White Macadamia Nut.",
+    keyword: "cookie",
+    cake: "NA",
+    frosting: "NA",
+    filling: "NA",
+    other: "cookie",
   },
   {
     image_url: FirstCatCake,
@@ -285,16 +276,6 @@ export const data = [
     other: "NA",
   },
   {
-    image_url: JudilynBirthdayTopview,
-    title:
-      "Topview of Vanilla cake with strawberry filling and swiss meringue buttercream",
-    keyword: "cake, circle5inch, vanilla, strawberry",
-    cake: "vanilla",
-    frosting: "strawberry, swissMerginueButtercream",
-    filling: "strawberry",
-    other: "NA",
-  },
-  {
     image_url: KaterraBirthday,
     title: "Vanilla cake with cardamom filling and swiss meringue buttercream",
     keyword: "cardamom, cake, circle9inch",
@@ -323,37 +304,8 @@ export const data = [
     other: "custom",
   },
   {
-    image_url: KimBirthday2022Sideview,
-    title: "Frog themed cake with a mushroom sidewall design",
-    keyword:
-      "closeup, frog, cake, sheetcake, chocolate, raspberry, swissMeringueButtercream",
-    cake: "chocolate",
-    frosting: "swissMeringueButtercream, vanilla",
-    filling: "raspberry",
-    other: "custom",
-  },
-  {
     image_url: KimBirthday2022Topview,
     title: "Frog themed cake with a pond you can feed the fishes",
-    keyword:
-      "frog, cake, sheetcake, chocolate, raspberry, swissMeringueButtercream",
-    cake: "chocolate",
-    frosting: "swissMeringueButtercream, vanilla",
-    filling: "raspberry",
-    other: "custom",
-  },
-  {
-    image_url: KimBirthdayMilkTea,
-    title: "Bubble Milk Tea cake with tapioca pearls",
-    keyword: "bubbletea, vanilla, cake, circle5inch",
-    cake: "vanilla, milktea",
-    frosting: "buttercream, vanilla",
-    filling: "buttercream, vanilla",
-    other: "tapiocaPearls",
-  },
-  {
-    image_url: KimBirthday2022Gathering,
-    title: "Gathering of friends around the lake",
     keyword:
       "frog, cake, sheetcake, chocolate, raspberry, swissMeringueButtercream",
     cake: "chocolate",
@@ -381,16 +333,6 @@ export const data = [
     other: "motherday",
   },
   {
-    image_url: MomBirthdayTopview,
-    title:
-      "Mothers day cake top view with strawberry and vanilla swiss meringue buttercream",
-    keyword: "swissMeringueButtercream, strawberry, circle5inch",
-    cake: "vanilla",
-    frosting: "swissMeringueButtercream, vanilla",
-    filling: "strawberry",
-    other: "motherday",
-  },
-  {
     image_url: NunchuckCake1,
     title: "First part of gluten-free Nunchuck cake",
     keyword: "gluten, custom, chocolatem swissroll",
@@ -409,24 +351,6 @@ export const data = [
     other: "custom, swissroll",
   },
   {
-    image_url: PeanutButterVanillaIcecream,
-    title: "Peanut Butter Vanilla Ice Cream cake with Peanut butter cookies",
-    keyword: "peanut, vanilla, icecream, cookie, circle9inch, cake",
-    cake: "vanilla, icecream, peanutButter",
-    frosting: "vanilla, icecream",
-    filling: "peanutbutter, icecream, chocolate",
-    other: "custom",
-  },
-  {
-    image_url: PerfectCakeWalls,
-    title: "Almost perfect crisp 90 degree cake sides",
-    keyword: "chocolate, cake",
-    cake: "chocolate",
-    frosting: "NA",
-    filling: "NA",
-    other: "NA",
-  },
-  {
     image_url: PullApartCinnominRolls,
     title: "Pull apart cinnomin rolls",
     keyword: "cinnomin, pullapart",
@@ -438,15 +362,6 @@ export const data = [
   {
     image_url: RaspberryMeringuePie,
     title: "Raspberry Meringue Pie",
-    keyword: "raspberry, pie, meringue",
-    cake: "NA",
-    frosting: "meringue",
-    filling: "raspberry",
-    other: "merginue, pie",
-  },
-  {
-    image_url: RaspberryMeringuePieCut,
-    title: "Raspberry Meringue Pie Cut out",
     keyword: "raspberry, pie, meringue",
     cake: "NA",
     frosting: "meringue",
@@ -509,49 +424,39 @@ export const data = [
     other: "NA",
   },
   {
-    image_url: TripleChocolateCake,
-    title:
-      "Chocolate Cake with chocolate gnache and chocolate swiss merginue buttercream for my 30th birthday,",
-    keyword: "chocolate, swissMeringueButtercream",
-    cake: "chocolate",
-    frosting: "swissMeringueButtercream",
-    filling: "chocolateGnache,",
+    image_url: UbeCustardItalian,
+    title: "Ube cake with custard filling and italian meringue buttercream",
+    keyword: "ube, custard, italianMeringueButtercream, circle9inch",
+    cake: "ube",
+    frosting: "italianMeringueButtercream",
+    filling: "custard",
     other: "NA",
   },
   {
-  'image_url': UbeCustardItalian,
-  'title': 'Ube cake with custard filling and italian meringue buttercream',
-  'keyword': 'ube, custard, italianMeringueButtercream, circle9inch',
-  'cake': 'ube',
-  'frosting': 'italianMeringueButtercream',
-  'filling': 'custard',
-  'other': 'NA'
+    image_url: VanillaStrawberryMirrorGlaze,
+    title: "Vanilla and strawberry cake with mirror glaze design",
+    keyword: "mirrorglaze, vanilla, strawberry, circle9inch",
+    cake: "vanilla",
+    frosting: "mirroglaze",
+    filling: "strawberry",
+    other: "mirrorglaze",
   },
   {
-  'image_url': VanillaStrawberryMirrorGlaze,
-  'title': 'Vanilla and strawberry cake with mirror glaze design',
-  'keyword': 'mirrorglaze, vanilla, strawberry, circle9inch',
-  'cake': 'vanilla',
-  'frosting': 'mirroglaze',
-  'filling': 'strawberry',
-  'other': 'mirrorglaze'
+    image_url: VanillaSwissMeringue,
+    title: "Vanilla with swiss meringue buttercream frosting",
+    keyword: "vanilla, swissMeringueButtercream",
+    cake: "vanilla",
+    frosting: "swissMeringueButtercream",
+    filling: "swissMeringueButtercream",
+    other: "NA",
   },
   {
-  'image_url': VanillaSwissMeringue,
-  'title': 'Vanilla with swiss meringue buttercream frosting',
-  'keyword': 'vanilla, swissMeringueButtercream',
-  'cake': 'vanilla',
-  'frosting': 'swissMeringueButtercream',
-  'filling': 'swissMeringueButtercream',
-  'other': 'NA'
-  },
-  {
-  'image_url': VanillaSwissMeringueCupcakes,
-  'title': 'Vanilla swiss meringue buttercream cupcakes',
-  'keyword': 'vanilla, swissMerginueButtercream, cupcake',
-  'cake': 'vanilla',
-  'frosting': 'swissMerginueButtercream',
-  'filling': 'NA',
-  'other': 'NA'
+    image_url: VanillaSwissMeringueCupcakes,
+    title: "Vanilla swiss meringue buttercream cupcakes",
+    keyword: "vanilla, swissMerginueButtercream, cupcake",
+    cake: "vanilla",
+    frosting: "swissMerginueButtercream",
+    filling: "NA",
+    other: "NA",
   },
 ];

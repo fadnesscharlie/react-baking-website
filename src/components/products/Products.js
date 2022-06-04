@@ -11,6 +11,7 @@ import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 
 import { useState } from "react";
+import Baking from "../bakingStory/BakingStory.js";
 
 export default function Products(props) {
   const [page, setPage] = useState(1);
@@ -33,25 +34,35 @@ export default function Products(props) {
   };
 
   return (
-    <>
-      <h1 className="productHeader">Products Page Under Construction, Please bear with us, but enjoy the baked goods!</h1>
+    <div className=" productImgBox landingBackgroundColor">
+      <section className="bakingDiv">
+        <h1 className="productHeader">
+          Products Page Under Construction, Please bear with us, but enjoy the
+          baked goods!
+        </h1>
 
-      <Grid container spacing={2}>
-        {products}
-      </Grid>
+        <Grid container spacing={2}>
+          {products}
+        </Grid>
 
-      <Stack spacing={2}>
-        <Pagination
-          count={pageNumbers}
-          renderItem={(item) => (
-            <PaginationItem
-              components={{ previous: ArrowBackIcon, next: ArrowForwardIcon }}
-              {...item}
-            />
-          )}
-          onChange={handleChange}
-        />
-      </Stack>
-    </>
+        <Stack spacing={2}>
+          <Pagination
+            count={pageNumbers}
+            renderItem={(item) => (
+              <PaginationItem
+                components={{ previous: ArrowBackIcon, next: ArrowForwardIcon }}
+                {...item}
+              />
+            )}
+            onChange={handleChange}
+          />
+        </Stack>
+      </section>
+      <section className="backgroundColorWhite">
+        <section className="bakingDiv">
+          <Baking />
+        </section>
+      </section>
+    </div>
   );
 }

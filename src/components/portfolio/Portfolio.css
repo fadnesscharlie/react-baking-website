@@ -140,3 +140,8 @@ Friends Section
   margin: auto;
   padding-top: 20px;
 }
+
+.fixBottomSpace {
+  margin-bottom: -60px;
+  /* border: red solid 5px; */
+}

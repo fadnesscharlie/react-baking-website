@@ -1,68 +1,73 @@
-.devInfo {
-  margin: auto;
-  /* width: 60%; */
+.spaceUnderHeader {
+  padding-bottom: 40px;
 }
 
-
-.bakerInfo {
-  font-size: larger;  
+.mainIntro {
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 3.5em;
 }
 
-.startTag {
-  font-size: 1.6em;
-  /* margin: 100px ; */
-  color: #a44340;
-  /* color: #000000; */
+.mainIntro > span {
+  padding-bottom: 1px;
+  border-bottom: solid black 5px;
 }
 
-.backgroundMain {
-  margin: auto;
-  padding-top: 100px;
-  width: 60%;
-  z-index: 2;
-  position: relative;
-  /* color: rgb(197, 196, 184); */
-  color: #eee9d4
-
+.mainProfilePic img {
+  outline: 15px solid rgba(238,	233,	212, .75);
+  outline-offset: -15px;
 }
 
-.wordText {
-  color: #eee9d4
-  /* background-image: linear-gradient(to right, #E0F8F7, #000000);
-  color: transparent;
-  background-clip: text; */
+.MainPic {
+  width: 80%;
+  float: right;
+  border: black solid 3px;
 }
 
-.mainComponentBody {
-  background-image: url('../images/silhouette.jpg');
-  background-size: 100%;
-  position: fixed;
-  background-repeat: repeat;
-  padding: 1000px;
-  
+.factsLinks {
+  text-decoration: none;
 }
-
-.picBorder {
-  border: rgb(0, 0, 0) solid 5px;
-  padding: 10px;
-  background-color: azure;
+.facts {
   margin: 10px;
+  margin-left: 30px;
 }
 
-.firstCatCake {
-  /* width: 200px; */
-  float: right;
-  height: 250px;
+.facts:first-of-type {
+  margin-top: 20px;
 }
 
-.ubeCake {
-  float: right;
-  width: 250px;
+.mainDescription {
+  font-size: larger;
+  margin-top: 10px;
 }
 
+.factsSection {
+  margin-top: 50px;
 
-.kimBirthdayCake {
-  width: 300px;
-  float: right;
+}
 
+.mainBody {
+  margin-bottom: 50px;
+}
+
+.coreValues {
+  font-size: larger;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.whoIs {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+.imageLink {
+  color: rgb(0, 0, 255);
+  display: inline-block;
+}
+
+.aboutBio {
+  width: 80%;
+  margin: auto;
 }

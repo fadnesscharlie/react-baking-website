@@ -19,15 +19,15 @@ export default function Header(props) {
             </Link>
           </span>
           <span className="navListLi">
-            <Link className="navLinkHeader" to="products">
-              Products
+            <Link className="navLinkHeader" to="baking">
+              Baking
             </Link>
           </span>
-          <span className="navListLi">
+          {/* <span className="navListLi">
             <Link className="navLinkHeader" to="portfolio">
               Portfolio
             </Link>
-          </span>
+          </span> */}
           <span className="navListLi">
             <Link className="navLinkHeader" to="about">
               About

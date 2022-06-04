@@ -9,7 +9,7 @@
 @import url("https://fonts.googleapis.com/css?family=Rubik&display=swap");
 
 body {
-  background: linear-gradient(0deg, #C7DCDD, 50%, #C7DCDD);
+  background: linear-gradient(0deg, #eee9d4, 50%, #eee9d4);
   font-family: "Rubik", sans-serif;
   /* background: #455a64; */
   /* background: aquamarine; */
@@ -25,6 +25,7 @@ body {
   color: #627482 !important;
   margin-bottom: 0;
   padding-bottom: 0;
+  height: 320px;
 }
 
 .footerFontColor {
