@@ -34,8 +34,8 @@ export default function Products(props) {
   };
 
   return (
-    <div className=" productImgBox landingBackgroundColor">
-      <section className="bakingDiv">
+    <div className="productImgBox landingBackgroundColor">
+      <section className="bakingImagesDiv">
         <h1 className="productHeader">
           Products Page Under Construction, Please bear with us, but enjoy the
           baked goods!

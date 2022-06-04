@@ -24,6 +24,8 @@
   margin: auto;
 }
 
-.productImgBox {
-  width: 100hh;
+.bakingImagesDiv {
+  max-width: 1200px;
+  margin: auto;
+  margin-bottom: 50px;
 }
