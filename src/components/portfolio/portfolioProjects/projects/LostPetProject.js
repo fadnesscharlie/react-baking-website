@@ -6,14 +6,13 @@ export default function LostPetProject(props) {
     <>
       <h1>Floof Finders</h1>
       <section className="textLarger">
-        As we know, once our pet gets outside, we have to in the first few
-        minutes find our pet and get them to safety. The sounds, lights, and
-        enviornment will terrify them into running and hiding and when that
-        happens, its to late. They are lost. <br />
+        As we know, once our pet's gets outside, we have to urgently and get them to safety. The sounds, lights, and
+        enviornments will terrify them into running and hiding. When that
+        happens, its too late. They are lost. <br />
         <br />
         We wanted to create an application that can you can communicate with
         others, and in the future instantly alert everyone that has the
-        application within a few miles radius to quickly locate your pet in
+        application within a few mile radius to quickly locate your pet's in
         those very small minutes that we have.
       </section>
 
@@ -32,8 +31,8 @@ export default function LostPetProject(props) {
           <li className="textLarger">What does this Solve?</li>
           <li>Swift Location of Pets</li>
           <li>Post within seconds</li>
-          <li>No rushing to print</li>
-          <li>Direction of pet is headed</li>
+          <li>No need to print flyers</li>
+          <li>Direction that pet is headed</li>
         </ul>
       </section>
 

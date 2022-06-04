@@ -15,12 +15,12 @@ export default function portfolioAbout(props) {
           </p>
 
           <p>
-            I choose software development as a career choice to be able to
+            I chose software development as a career choice to be able to
             create, solve, build, and fix things. In my process in software
             developing, I found out I started to love what developing was. The
             grind to solve a complex problem, take endless steps towards
             something just to find out it wasn't what you were looking for, and
-            then... reaching your goal and finding the answer is what makes it
+            then reaching your goal and finding the answer is what makes it
             all worth it.
           </p>
         <div className="backToTop borderColorWhite rounded-pill" onClick={() => window.scrollTo(0, 0)}>

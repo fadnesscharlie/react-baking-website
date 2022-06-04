@@ -1,17 +1,22 @@
 import "./Portfolio-Nav.css";
 import profilePic from "../../images/Profile-Pic-Resized.jpg";
-import HomeIcon from '@mui/icons-material/Home';
-import WorkIcon from '@mui/icons-material/Work';
-import SchoolIcon from '@mui/icons-material/School';
-import ConnectWithoutContactIcon from '@mui/icons-material/ConnectWithoutContact';
-import GroupIcon from '@mui/icons-material/Group';
+import HomeIcon from "@mui/icons-material/Home";
+import WorkIcon from "@mui/icons-material/Work";
+import SchoolIcon from "@mui/icons-material/School";
+import ConnectWithoutContactIcon from "@mui/icons-material/ConnectWithoutContact";
+import GroupIcon from "@mui/icons-material/Group";
 
 export default function Nav(props) {
   return (
     <>
       <aside className="portfolio-nav headerColorOnDark">
         <section className="picNameLinks ">
-          <img src={profilePic} alt="profile" className="profilePic" onClick={() => window.scrollTo(0, 0)}/>
+          <img
+            src={profilePic}
+            alt="profile"
+            className="profilePic"
+            onClick={() => window.scrollTo(0, 0)}
+          />
 
           <div className="name">
             <strong>Charlie Fadness</strong>
@@ -41,27 +46,21 @@ export default function Nav(props) {
         </section>
 
         <ul className="portList">
-          <li className="portListLi" onClick={() => window.scrollTo(0, 1050)}>
-            <HomeIcon fontSize='larger' />{" "}
-            About
+          <li className="portListLi" onClick={() => window.scrollTo(0, 900)}>
+            <HomeIcon fontSize="larger" /> About
           </li>
-          <li className="portListLi" onClick={() => window.scrollTo(0, 1500)}>
-            < WorkIcon fontSize='larger' />{" "}
-            Projects
+          <li className="portListLi" onClick={() => window.scrollTo(0, 1350)}>
+            <WorkIcon fontSize="larger" /> Projects
           </li>
-          <li className="portListLi" onClick={() => window.scrollTo(0, 4750)}>
-            <SchoolIcon fontSize='larger' />{" "}
-            Work & Education
+          <li className="portListLi" onClick={() => window.scrollTo(0, 4600)}>
+            <SchoolIcon fontSize="larger" /> Work & Education
           </li>
-          <li className="portListLi" onClick={() => window.scrollTo(0, 5450)}>
-            <GroupIcon fontSize='larger' />{" "}
-            Friends
+          <li className="portListLi" onClick={() => window.scrollTo(0, 5290)}>
+            <GroupIcon fontSize="larger" /> Friends
           </li>
           <li className="portListLi" onClick={() => window.scrollTo(0, 10000)}>
-          <ConnectWithoutContactIcon fontSize='larger' />{" "}
-            Contact
+            <ConnectWithoutContactIcon fontSize="larger" /> Contact
           </li>
-          
         </ul>
       </aside>
     </>

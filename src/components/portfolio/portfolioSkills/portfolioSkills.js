@@ -5,7 +5,6 @@ export default function portfolioSkills(props) {
     <>
       <section className="skills width1000 headerColorOnDark ">
         <section className="row ">
-
           <div className="skillsSummary col">
             <h2 className="headerTitles ">Work & Education</h2>
             <div>
@@ -35,12 +34,13 @@ export default function portfolioSkills(props) {
 
                 {/* Line Break */}
                 <hr style={{ height: "2px" }}></hr>
-
-                <li>
-                  <strong className="skillTitle">
-                    Advanced Software Development in Full-Stack JavaScript
-                  </strong>
-                </li>
+                <ul>
+                  <li>
+                    <strong className="skillTitle">
+                      Advanced Software Development in Full-Stack JavaScript
+                    </strong>
+                  </li>
+                </ul>
                 <ul>
                   <li>Code Fellows, Seattle, WA</li>
                   <li>2021 - 2022</li>
@@ -61,9 +61,13 @@ export default function portfolioSkills(props) {
                     JavaScript, AWS, Nodejs, HTML, CSS, Shell Scripting, React
                   </li>
                 </ul>
-                <li>
-                  <strong className="skillTitle">Skills and Tools Used</strong>
-                </li>
+                <ul>
+                  <li>
+                    <strong className="skillTitle">
+                      Skills and Tools Used
+                    </strong>
+                  </li>
+                </ul>
                 <ul>
                   <li>
                     Visual Studio Code, Git, Github, Express, RESTful API, Jest,
@@ -72,11 +76,13 @@ export default function portfolioSkills(props) {
                     EC2, AWS DynamoDB, AWS Lambda, Redux,
                   </li>
                 </ul>
-                <li>
-                  <strong className="skillTitle">Hobbies</strong>
-                </li>
                 <ul>
-                  <li>Python, baking website, baking, anime, games</li>
+                  <li>
+                    <strong className="skillTitle">Hobbies</strong>
+                  </li>
+                </ul>
+                <ul>
+                  <li>Coding, baking, anime, hiking, board games, games</li>
                 </ul>
               </ul>
             </div>

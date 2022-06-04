@@ -1,0 +1,43 @@
+Name is front and center
+Change dev baker lmp to Charlie Fadness
+
+Change homepage to portfolio
+
+Curreent home page does not have anything on footer
+
+Title
+Front-end Full Stack Developer
+
+Nav
+>In order of Importance
+
+Products Page name to Baking
+>Best images on products page
+>Move baking story under baking images
+
+Home page
+>Home page to about page
+>Remove are:
+>Change positivity to posivite
+>Change honesty to honest
+>Update Quote:
+  Everyday is what you make it out to be
+  outlook to way
+  team worker that has a positive outlook on life???
+    garnishing/achieving a positive?
+    Not using the word correctly
+>Remove so
+
+About Page
+>About page more
+>Back image?
+
+portfolio
+>About Optimisitic Coder
+  FIX
+>choose to chose(past present)
+>Friends
+  Make image non clickable
+
+> Format changing for zooms
+> backround color pops up?

@@ -7,13 +7,13 @@ import PortfolioAbout from "./portfolioAbout/portfolioAbout";
 import "./Portfolio.css";
 import PortfolioOfFriends from "./portfolioFriends/PortfolioOfFriends";
 
-export default function portfolio(props) {
+export default function Portfolio(props) {
   return (
     <>
       <div className="widthMaster backgroundColorPaleWhite headerColorOnLight">
           <img src={landscapeImageWide} alt="landscape" className="landscapeImg" />
         <div className="intro ">
-          <h1>Hello, I'm Charlie.</h1>
+          <h1>Hello, I'm Charlie Fadness.</h1>
           <h3>Full Stack Software Developer </h3> 
           <h4>Aka: Optimistic Coder</h4>
           <p>

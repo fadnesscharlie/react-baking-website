@@ -1,12 +1,16 @@
 .App {
   background-color: #eee9d4;
+}
+
+.backgroundColorWhite {
   
+  background-color: #eee9d4;
 }
 
 /* Landing */
 /* Not in Use */
 .landingBackgroundColor {
-  background-color: #C7DCDD;
+  background-color: #c7dcdd;
 }
 
 /* Back to Top Buttons - Portfolio page */
