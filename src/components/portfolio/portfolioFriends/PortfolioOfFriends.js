@@ -6,10 +6,11 @@ import { Button, CardActions } from "@mui/material";
 import Grid from "@mui/material/Grid";
 import Box from "@mui/material/Box";
 import ArrowCircleUpIcon from "@mui/icons-material/ArrowCircleUp";
+import { forwardRef } from 'react';
 
-export default function PortfolioOfFriends(props) {
+function PortfolioOfFriends(props, ref) {
   return (
-    <div className="backgroundColorPaleWhite headerColorOnLight fixBottomSpace">
+    <div className="backgroundColorPaleWhite headerColorOnLight fixBottomSpace" ref={ref}>
       <Box sx={{ flexGrow: 1 }} className="friends">
         <h2 className="headerTitles width1000 portfolio ">
           Professional Recommendations!
@@ -104,3 +105,5 @@ export default function PortfolioOfFriends(props) {
     </div>
   );
 }
+
+export default forwardRef(PortfolioOfFriends)

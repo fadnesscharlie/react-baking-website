@@ -1,12 +1,13 @@
 import ArrowCircleUpIcon from "@mui/icons-material/ArrowCircleUp";
+import { forwardRef } from 'react';
 
 import LostPetProject from "./projects/LostPetProject";
 import RemoteRateProject from "./projects/RemoteRateProject";
 
-export default function portfolioProjects(props) {
+function portfolioProjects(props, ref) {
   return (
     <>
-      <div className="backgroundColorPaleWhite headerColorOnLight">
+      <div className="backgroundColorPaleWhite headerColorOnLight" ref={ref}>
         <div className="projects width1000">
           <h2 className="headerTitles ">Highlighted Projects</h2>
 
@@ -29,3 +30,5 @@ export default function portfolioProjects(props) {
     </>
   );
 }
+
+export default forwardRef(portfolioProjects)

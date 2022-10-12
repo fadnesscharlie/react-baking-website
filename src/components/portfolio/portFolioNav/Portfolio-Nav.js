@@ -5,8 +5,11 @@ import WorkIcon from "@mui/icons-material/Work";
 import SchoolIcon from "@mui/icons-material/School";
 import ConnectWithoutContactIcon from "@mui/icons-material/ConnectWithoutContact";
 import GroupIcon from "@mui/icons-material/Group";
+import { scrollEffect } from "../Utils/scrollEffect";
+import { forwardRef } from "react";
 
-export default function Nav(props) {
+const Nav = forwardRef((props, ref) => {
+  let { landing, about, projects, skills, friends } = ref.current;
   return (
     <>
       <aside className="portfolio-nav headerColorOnDark">
@@ -15,7 +18,7 @@ export default function Nav(props) {
             src={profilePic}
             alt="profile"
             className="profilePic"
-            onClick={() => window.scrollTo(0, 0)}
+            onClick={() => scrollEffect(landing)}
           />
 
           <div className="name">
@@ -46,16 +49,16 @@ export default function Nav(props) {
         </section>
 
         <ul className="portList">
-          <li className="portListLi" onClick={() => window.scrollTo(0, 900)}>
+          <li className="portListLi" onClick={() => scrollEffect(about)}>
             <HomeIcon fontSize="larger" /> About
           </li>
-          <li className="portListLi" onClick={() => window.scrollTo(0, 1350)}>
+          <li className="portListLi" onClick={() => scrollEffect(projects)}>
             <WorkIcon fontSize="larger" /> Projects
           </li>
-          <li className="portListLi" onClick={() => window.scrollTo(0, 4600)}>
+          <li className="portListLi" onClick={() => scrollEffect(skills)}>
             <SchoolIcon fontSize="larger" /> Work & Education
           </li>
-          <li className="portListLi" onClick={() => window.scrollTo(0, 5290)}>
+          <li className="portListLi" onClick={() => scrollEffect(friends)}>
             <GroupIcon fontSize="larger" /> Friends
           </li>
           <li className="portListLi" onClick={() => window.scrollTo(0, 10000)}>
@@ -65,4 +68,6 @@ export default function Nav(props) {
       </aside>
     </>
   );
-}
+});
+
+export default Nav;

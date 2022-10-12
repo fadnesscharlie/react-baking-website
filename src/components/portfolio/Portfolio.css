@@ -23,6 +23,10 @@
   font-size: 3.4em;
 }
 
+.fullSizePage {
+  height: 100vh;
+}
+
 /* 
 ################################ 
 Intro Section

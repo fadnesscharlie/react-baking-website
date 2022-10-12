@@ -67,6 +67,10 @@
   display: inline-block;
 }
 
+.imageLink:hover {
+  cursor: pointer;
+}
+
 .aboutBio {
   width: 80%;
   margin: auto;

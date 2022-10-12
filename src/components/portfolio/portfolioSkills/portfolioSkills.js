@@ -1,9 +1,10 @@
 import ArrowCircleUpIcon from "@mui/icons-material/ArrowCircleUp";
+import { forwardRef } from 'react';
 
-export default function portfolioSkills(props) {
+function portfolioSkills(props, ref) {
   return (
     <>
-      <section className="skills width1000 headerColorOnDark ">
+      <section className="skills width1000 headerColorOnDark " ref={ref}>
         <section className="row ">
           <div className="skillsSummary col">
             <h2 className="headerTitles ">Work & Education</h2>
@@ -98,3 +99,5 @@ export default function portfolioSkills(props) {
     </>
   );
 }
+
+export default forwardRef(portfolioSkills)
