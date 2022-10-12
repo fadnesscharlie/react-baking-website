@@ -1,49 +1,16 @@
 <div id="top"></div>
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Don't forget to give the project a star!
-*** Thanks again! Now go create something AMAZING! :D
--->
 
 <!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
 
 [![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e13235a1-37a5-4f38-870d-a73ce0ed343b/deploy-status)](https://app.netlify.com/sites/charliefadness/deploys)
 [![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
-<!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/github_username/repo_name">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
-
-<h3 align="center">project_title</h3>
-
-  <p align="center">
-    project_description
-    <br />
-    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
-    ·
-    <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
-  </p>
+  <h1 align="center">Charlie Fadness</h1>
 </div>
 
 <!-- TABLE OF CONTENTS -->
@@ -56,16 +23,8 @@
         <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
+    <li><a href="#projects">Projects</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
@@ -76,106 +35,53 @@
 
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+Welcome to my portfolio where you will see some of skills and show you a glipse into myself and showcase some of my skills in Web Development.
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
+<!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
 
-[Deployed Website](https://charlies-baked-goods.netlify.app/)
+[Deployed Website](http://www.charliefadness.com/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-### Built With
+## Built With
 
-- [Next.js](https://nextjs.org/)
 - [React.js](https://reactjs.org/)
-- [Vue.js](https://vuejs.org/)
-- [Angular](https://angular.io/)
-- [Svelte](https://svelte.dev/)
-- [Laravel](https://laravel.com)
 - [Bootstrap](https://getbootstrap.com)
-- [JQuery](https://jquery.com)
+- [Material UI](https://mui.com/)
+- [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/)
+- [React Boostrap](https://react-bootstrap.github.io/)
+- [React Router DOM](https://reactrouter.com/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-<!-- GETTING STARTED -->
+<!-- PROJECTS -->
 
-## Getting Started
+## Projects
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-
-- npm
-  ```sh
-  npm install npm@latest -g
-  ```
-
-### Installation
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/github_username/repo_name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = "ENTER YOUR API";
-   ```
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-<!-- USAGE EXAMPLES -->
-
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-<p align="right">(<a href="#top">back to top</a>)</p>
+- [Lost Pet Finder](https://lost-pet-app.netlify.app/)
+  - [Repo - Frontend](https://github.com/fadnesscharlie/lost-pet-finder-frontend)
+  - [Repo - backend](https://github.com/fadnesscharlie/lost-pet-finder-backend)
+- [Remote Rate](https://remote-rate.netlify.app/)
+  - [Repo - Frontend](https://github.com/remote-rate-revised/remote-rate-backend)
+  - [Repo - Backend](https://github.com/remote-rate-revised/remote-rate-backend)
+- [ARC Massage And Wellness](arcmassageandwellness.com)
 
 <!-- ROADMAP -->
 
 ## Roadmap
 
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-  - [ ] Nested Feature
-
-See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-<!-- CONTRIBUTING -->
-
-## Contributing
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-<p align="right">(<a href="#top">back to top</a>)</p>
+- [x] Welcoming Layout
+- [x] Display Projects
+- [x] Display Baking Images
+- [x] Add Skills and Experience
+- [ ] Mobile Friendly
+- [ ] Create a Form to send emails through the browser
 
 <!-- LICENSE -->
 
 ## License
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+Distributed under the [MIT](https://opensource.org/licenses/MIT) License.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -183,9 +89,9 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
+Charlie Fadness - fadness.charlie@outlook.com
 
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
+Project Link: [https://github.com/fadnesscharlie/react-baking-website](https://github.com/fadnesscharlie/react-baking-website)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -195,133 +101,22 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 
 - [Footer Template](https://bbbootstrap.com/snippets/simple-footer-social-media-icons-37929510#)
 - [Chester - React Personal Portfolio Template + React hooks](https://themeforest.net/item/chester-react-personal-portfolio-template/24952954)
-- []()
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/github_username/repo_name.svg?style=for-the-badge
-[contributors-url]: https://github.com/github_username/repo_name/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/github_username/repo_name.svg?style=for-the-badge
-[forks-url]: https://github.com/github_username/repo_name/network/members
-[stars-shield]: https://img.shields.io/github/stars/github_username/repo_name.svg?style=for-the-badge
-[stars-url]: https://github.com/github_username/repo_name/stargazers
-[issues-shield]: https://img.shields.io/github/issues/github_username/repo_name.svg?style=for-the-badge
-[issues-url]: https://github.com/github_username/repo_name/issues
-[license-shield]: https://img.shields.io/github/license/github_username/repo_name.svg?style=for-the-badge
-[license-url]: https://github.com/github_username/repo_name/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/fadnesscharlie/react-baking-website.svg?style=for-the-badge
+[contributors-url]: https://github.com/fadnesscharlie/react-baking-website/graphs/contributors
+
+[stars-shield]: https://img.shields.io/github/stars/fadnesscharlie/react-baking-website.svg?style=for-the-badge
+[stars-url]: https://github.com/fadnesscharlie/react-baking-website/stargazers
+
+[license-shield]: https://img.shields.io/badge/License-MIT-yellow.svg
+[license-url]: https://opensource.org/licenses/MIT
+
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/linkedin_username
+[linkedin-url]: https://linkedin.com/in/cfadness
+
 [product-screenshot]: images/screenshot.png
-
-
-Reference Site
-
-Minialist/Modern
-  gottisweets.com
-  faire.com
-  https://honeyberrystudios.com/
-  cheyennebarton.com
-  clammyheart.shop
-    Good Reference
-
-Cottage Core
-Modern
-Sleek
-Vintage
-  Cursive Text
-  Wedding Website
-  Curling things
-  softer colors
-Goblin Core
-Angel Core
-Fairy Core
-
-
-
-Sleek design is near minamilist
-Text is less, more images
-All back background
-
-# Logo
-Cats and cake
-Line work style
-
-
-
-## Main page
-
-Big title
-Images describing your site, not as many words
-
-
-## Products 
-Images all the same size
-
-Filter Buttons
-  Use Images instead of words for filter
-
-
-Click through images, from left to right accordian?
-Inside card, color matches background and words are under it
-
-
-
-## Theme
-
-  banner at top
-  Text one side, image to one side
-  full bleed white
-  Photos in grid
-  Same crop size
-
-
-
-vintage-mordern
-Soft white
-
-
-modern
-Bolder
-Deep red
-
-
-Retro
-Dark brown
-Soft brown
-grey
-
-
-Font style
-San Seref
-
-
-Colors
-
-2-3 primary background colors
-#C7DCDD
-#A4434
-#FAEDB4
-
-secondary colors
-#795139
-
-
-others 
-  limy green
-
-
-EXTRAS FOR COLORS
-Green is growth
-Blue is calm
-Yellow is happy
-Red is intense
-  not really main, but complentarty
-    Button widgets
-Purple is Royal color
-Black is modern/intense
-White is modern
-Orange is intense
-

@@ -8,13 +8,24 @@ export default function portfolioAbout(props) {
           <h2 className='headerTitles'>About the Optimistic Coder</h2>
           <p>
             As for being a person who inspires other with optimism, I look
-            forward to being the best we can be. A strive for excellence,
-            solving complex problems, engaging with people, understanding the
-            conflicts we have, and finding solutions to answer them or find a
-            way around them.
+            forward to being the best we can be. What we give out to the world should be what we want to recieve back.
+            <br /> 
+
+            
+
+            {/* My passion for helping, teaching, and being a person people look towards are things I strive for.
+
+            I strive for excellence,
+            solving complex problems, engaging with others,  */}
           </p>
 
           <p>
+
+            Mu current specialty is with React. As a React developer, 
+
+
+
+
             I chose software development as a career choice to be able to
             create, solve, build, and fix things. In my process in software
             developing, I found out I started to love what developing was. The

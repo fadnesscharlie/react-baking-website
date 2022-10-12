@@ -7,6 +7,10 @@
   padding: 2px;
 }
 
+.backToTop:hover {
+  cursor: pointer;
+}
+
 .textLarger {
   font-size: larger;
 }
@@ -70,8 +74,11 @@ Projects Section
 .projectImg {
   margin: 10px;
   max-height: 800px;
-  min-width: 1000px;
+  min-width: 1000px; 
+  object-fit: cover;
 }
+
+
 
 .floofFinderDescription {
   border: red solid 5px;
