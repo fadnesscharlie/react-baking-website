@@ -9,16 +9,16 @@ export const remoteRateData = [
   {
     src: RemoteRateCompareOffers,
     alt: 'Remote Rate Compare Offers',
-    className: ''
+    className: 'projectImg'
   },
   {
     src: RemoteRateLandingPage,
     alt: 'Remote Rate Landing Page',
-    className: ''
+    className: 'projectImg'
   },
   {
     src: RemoteRateProfilePage,
     alt: 'Remote Rate Profile Page',
-    className: ''
+    className: 'projectImg'
   },
 ]

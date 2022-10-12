@@ -9,6 +9,10 @@
   object-fit: cover;
 }
 
+.productCardImg {
+  cursor: pointer;
+}
+
 .productCardBox{
   margin: 10px;
 }

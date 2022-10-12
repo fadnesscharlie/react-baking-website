@@ -7,6 +7,10 @@
   padding: 2px;
 }
 
+.backToTop:hover {
+  cursor: pointer;
+}
+
 .textLarger {
   font-size: larger;
 }
@@ -17,6 +21,10 @@
 
 .headerTitles {
   font-size: 3.4em;
+}
+
+.fullSizePage {
+  height: 100vh;
 }
 
 /* 
@@ -70,8 +78,11 @@ Projects Section
 .projectImg {
   margin: 10px;
   max-height: 800px;
-  min-width: 1000px;
+  min-width: 1000px; 
+  object-fit: cover;
 }
+
+
 
 .floofFinderDescription {
   border: red solid 5px;

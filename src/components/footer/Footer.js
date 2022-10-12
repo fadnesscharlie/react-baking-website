@@ -24,15 +24,15 @@ export default function Footer(props) {
                     </Link>
                   </li>
                   <li className="navListLi">
-                    <Link className="navLinkFooter" to="products">
-                      Products
+                    <Link className="navLinkFooter" to="baking">
+                      Baking
                     </Link>
                   </li>
-                  <li className="navListLi">
+                  {/* <li className="navListLi">
                     <Link className="navLinkFooter" to="portfolio">
                       Portfolio
                     </Link>
-                  </li>
+                  </li> */}
                   <li className="navListLi">
                     <Link className="navLinkFooter" to="about">
                       About
