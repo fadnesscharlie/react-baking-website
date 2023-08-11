@@ -36,7 +36,7 @@ export default function Portfolio(props) {
         />
         <div className="intro fullSizePage">
           <h1>Hello, I'm Charlie Fadness.</h1>
-          <h3>Full Stack Software Developer </h3>
+          <h3>Full Stack Software Developer yay</h3>
           <h4>Aka: Optimistic Coder</h4>
           <p>
             <LocationOnOutlinedIcon /> Renton, WA
